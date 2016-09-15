@@ -8,16 +8,13 @@ Example of grunt config setup using [load-grunt-config](https://github.com/first
 
 ## Install
 
-- Install [Node.js](https://nodejs.org/).
+- Install [Node.js](https://nodejs.org/)
 
-- Install [nvm](https://github.com/creationix/nvm) if required:
+- Install [nvm](https://github.com/creationix/nvm) if required (node version v4.2.6, npm version 2.14.12)
 
-* node version v4.2.6
-* npm version 2.14.12
+- Install [ImageOptim](https://imageoptim.com/) desktop app
 
-- Install [ImageOptim](https://imageoptim.com/) desktop app.
-
-- Run `npm install` from project root to install node modules.
+- Run `npm install` from project root to install node modules
 
 ## Config
 
