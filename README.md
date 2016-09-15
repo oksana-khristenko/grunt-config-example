@@ -13,19 +13,19 @@ Grunt Config Example
     ├── Gruntfile.js
     ├── grunt
     │   ├── config
-    │   │   │── copy.js
-    │   │   │── cssmin.js
-    │   │   │── uglify.js
-    │   │   │── ...
+    │   │   ├── copy.js
+    │   │   ├── cssmin.js
+    │   │   ├── uglify.js
+    │   │   └── ...
     │   ├── rc
-    │   │   │── .jshintrc
-    │   │   │── .jscsrc
-    │   │   │── ...
+    │   │   ├── .jshintrc
+    │   │   ├── .jscsrc
+    │   │   └── ...
     │   └── tasks
-    │   │   │── default.js
-    │   │   │── build.js
-    │   │   │── dist.js
-    │   │   │── ...
+    │       ├── default.js
+    │       ├── build.js
+    │       ├── dist.js
+    │       └── ...
     └── ...
 
 ## Install
