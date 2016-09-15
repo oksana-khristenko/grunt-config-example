@@ -1,10 +1,32 @@
-# Grunt Config Example
+Grunt Config Example
+====================
 
-Example of grunt config setup using [load-grunt-config](https://github.com/firstandthird/load-grunt-config) plugin to break up Gruntfile by task to make it more manageable.
+> Example of grunt config setup using [load-grunt-config](https://github.com/firstandthird/load-grunt-config) plugin to break up Gruntfile by task to make it more manageable.
 
+- [Grunt config directory layout](#grunt-config-directory-layout)
 - [Install](#install)
 - [Config](#config)
 - [Tasks](#tasks)
+
+## Grunt config directory layout
+    .
+    ├── Gruntfile.js
+    ├── grunt
+    │   ├── config
+    │   │   │── copy.js
+    │   │   │── cssmin.js
+    │   │   │── uglify.js
+    │   │   │── ...
+    │   ├── rc
+    │   │   │── .jshintrc
+    │   │   │── .jscsrc
+    │   │   │── ...
+    │   └── tasks
+    │   │   │── default
+    │   │   │── build
+    │   │   │── dist
+    │   │   │── ...
+    └── ...
 
 ## Install
 
