@@ -22,9 +22,9 @@ Grunt Config Example
     │   │   │── .jscsrc
     │   │   │── ...
     │   └── tasks
-    │   │   │── default
-    │   │   │── build
-    │   │   │── dist
+    │   │   │── default.js
+    │   │   │── build.js
+    │   │   │── dist.js
     │   │   │── ...
     └── ...
 
