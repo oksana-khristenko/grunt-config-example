@@ -1,3 +1,17 @@
+'use strict';
+
+var getFolders = require('../helpers/folders').getFolders;
+
+function getSpriteFiles(sprites) {
+  var obj = {};
+
+  for (let sprite of sprites) {
+    obj[`public/assets/svg/${sprite}.svg`] = [`app/assets/svg/sprites/${sprite}/*.svg`];
+  }
+
+  return obj;
+};
+
 module.exports = {
   build: {
     options: {
@@ -5,8 +19,8 @@ module.exports = {
       includedemo: false,
       inheritviewbox: true
     },
-    files: {
-      'public/assets/svg/sample.svg': ['app/assets/svg/sprites/**/*.svg']
-    }
+    files: getSpriteFiles(
+      getFolders('app/assets/svg/sprites')
+    )
   }
 };

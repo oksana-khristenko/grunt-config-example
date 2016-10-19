@@ -19,7 +19,7 @@ var getHtmlFiles = dest => {
 var getSvgFiles = dest => {
   return {
     cwd: 'app/assets/svg',
-    src: ['**/*.svg', '!sprites/*.svg'],
+    src: ['**/*.svg', '!sprites/**/*.svg'],
     dest: dest + '/assets/svg',
     expand: true
   };
