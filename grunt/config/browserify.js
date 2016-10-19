@@ -1,6 +1,11 @@
+var babelConfig = require('../rc/.babelrc');
+
 module.exports = {
   options: {
-    transform: ['hbsfy']
+    transform: [
+      'hbsfy',
+      ['babelify', babelConfig]
+    ],
   },
   build: {
     src: 'app/assets/js/main.js',

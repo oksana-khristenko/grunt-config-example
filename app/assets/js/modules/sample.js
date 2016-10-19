@@ -1,5 +1,9 @@
 'use strict';
 
-exports.init = function() {
-    console.log('sample module init');
+var moduleName = 'sample';
+
+export var sample = {
+    init() {
+        console.log(`${moduleName} module init`);
+    }
 };

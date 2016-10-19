@@ -32,7 +32,7 @@ Grunt Config Example
 
 - Install [Node.js](https://nodejs.org/)
 
-- Install [nvm](https://github.com/creationix/nvm) if required (node version v4.2.6, npm version 2.14.12)
+- Install [nvm](https://github.com/creationix/nvm) if required (node version v6.8.0, npm version 3.10.8)
 
 - Install [ImageOptim](https://imageoptim.com/) desktop app
 

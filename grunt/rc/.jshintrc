@@ -18,5 +18,6 @@
     "location": true,
     "ga": true,
     "console": true
-  }
+  },
+  "esversion": 6
 }

@@ -1,4 +1,4 @@
-var getImageFiles = function(dest) {
+var getImageFiles = dest => {
   return {
     cwd: 'app/assets/img',
     src: ['**/*'],
@@ -7,7 +7,7 @@ var getImageFiles = function(dest) {
   };
 };
 
-var getHtmlFiles = function(dest) {
+var getHtmlFiles = dest => {
   return {
     cwd: 'app',
     src: ['**/*.html'],
@@ -16,7 +16,7 @@ var getHtmlFiles = function(dest) {
   };
 };
 
-var getSvgFiles = function(dest) {
+var getSvgFiles = dest => {
   return {
     cwd: 'app/assets/svg',
     src: ['**/*.svg', '!sprites/*.svg'],

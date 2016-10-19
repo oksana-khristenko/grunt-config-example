@@ -1,2 +1,3 @@
-var sample = require('./modules/sample');
+import {sample} from './modules/sample';
+
 sample.init();

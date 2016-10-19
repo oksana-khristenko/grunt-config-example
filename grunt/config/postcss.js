@@ -1,4 +1,4 @@
-var getPostcssFiles = function(dest) {
+var getPostcssFiles  = dest => {
   return [{
     expand: true,
     cwd: 'app/assets/css/',
