@@ -4,7 +4,8 @@
   "description": "Example of grunt config setup using load-grunt-config plugin to break up Gruntfile by task to make it more manageable",
   "author": "https://github.com/oksana-khristenko",
   "scripts": {
-    "start": "grunt"
+    "start": "grunt",
+    "dist": "grunt dist"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.16.0",

@@ -56,4 +56,4 @@ Run `npm start` from project root.
 
 Compiles and minifies HTML files and assets into `dist` folder.
 
-Run `grunt dist` from project root.
+Run `npm run dist` from project root.
