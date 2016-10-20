@@ -50,7 +50,7 @@ Grunt task files are stored in `grunt/tasks` folder.
 
 Compiles HTML files and assets into `public` folder and makes them available at `http://localhost:4001`.
 
-Run `grunt` or `grunt build` from project root.
+Run `npm start` from project root.
 
 ### Dist
 
