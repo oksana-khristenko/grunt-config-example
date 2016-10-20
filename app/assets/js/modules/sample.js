@@ -2,8 +2,8 @@
 
 var moduleName = 'sample';
 
-export var sample = {
-    init() {
-        console.log(`${moduleName} module init`);
-    }
-};
+function init() {
+    console.log(`${moduleName} module init`);
+}
+
+export { init };

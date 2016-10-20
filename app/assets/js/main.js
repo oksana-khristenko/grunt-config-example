@@ -1,3 +1,3 @@
-import {sample} from './modules/sample';
+import { init as initSample } from './modules/sample';
 
-sample.init();
+initSample();
