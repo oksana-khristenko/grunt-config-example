@@ -4,6 +4,7 @@ module.exports = function(grunt) {
     'copy:htmlDist',
     'htmlmin:dist',
     'postcss:dist',
+    'svgstore:dist',
     'svgmin:dist',
     'jshint:all',
     'jscs:all',

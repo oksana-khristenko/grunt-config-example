@@ -2,9 +2,9 @@ module.exports = {
   dist: {
     files: [{
       expand: true,
-      cwd: 'app/',
-      src: ['**/*.svg', '!app/svg/sprites/**/*.svg'],
-      dest: 'dist/'
+      cwd: 'app/assets/svg',
+      src: ['**/*.svg', '!sprites/**/*.svg'],
+      dest: 'dist/assets/svg'
     }]
   }
 };
