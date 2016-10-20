@@ -7,9 +7,7 @@ function getFolders(path) {
       folders = [];
 
   fs.readdirSync(path).forEach(item => {
-    if (fs.lstatSync(`${path}/${item}`).isDirectory()) {
-      folders.push(item);
-    }
+    fs.lstatSync(`${path}/${item}`).isDirectory() && folders.push(item);
   });
 
   return folders;
