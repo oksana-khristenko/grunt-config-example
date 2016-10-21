@@ -1,14 +1,14 @@
-Grunt Config Example
-====================
+Grunt Demo
+==========
 
-> Example of grunt config setup using [load-grunt-config](https://github.com/firstandthird/load-grunt-config) plugin to break up Gruntfile by task to make it more manageable.
+> Example of grunt setup using [load-grunt-config](https://github.com/firstandthird/load-grunt-config) plugin to break up Gruntfile by task to make it more manageable.
 
-- [Grunt config directory layout](#grunt-config-directory-layout)
+- [Directory structure](#directory-structure)
 - [Install](#install)
 - [Config](#config)
 - [Tasks](#tasks)
 
-## Grunt config directory layout
+## Directory structure
     .
     ├── Gruntfile.js
     ├── grunt

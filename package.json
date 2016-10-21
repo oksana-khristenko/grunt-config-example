@@ -1,7 +1,7 @@
 {
-  "name": "GruntConfigExample",
+  "name": "grunt-demo",
   "version": "0.0.0",
-  "description": "Example of grunt config setup using load-grunt-config plugin to break up Gruntfile by task to make it more manageable",
+  "description": "Example of grunt setup using load-grunt-config plugin to break up Gruntfile by task to make it more manageable",
   "author": "https://github.com/oksana-khristenko",
   "scripts": {
     "start": "grunt",
