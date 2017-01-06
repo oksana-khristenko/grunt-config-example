@@ -1,4 +1,15 @@
+'use strict';
+
 var babelConfig = require('../rc/.babelrc');
+
+var getFiles = dest => {
+  return [{
+    expand: true,
+    cwd: 'app/assets/js/',
+    src: ['**/*.js', '!modules/**/*.js', '!vendor/**/*.js'],
+    dest: `${dest}/assets/js`
+  }];
+};
 
 module.exports = {
   options: {
@@ -8,8 +19,7 @@ module.exports = {
     ],
   },
   build: {
-    src: 'app/assets/js/main.js',
-    dest: 'public/assets/js/main.js',
+    files: getFiles('public'),
     options: {
       browserifyOptions: {
         debug: true
@@ -17,7 +27,6 @@ module.exports = {
     }
   },
   dist: {
-    src: 'app/assets/js/main.js',
-    dest: 'dist/assets/js/main.js'
+    files: getFiles('dist')
   }
 };

@@ -1,9 +1,11 @@
-var getPostcssFiles  = dest => {
+'use strict';
+
+var getFiles = dest => {
   return [{
     expand: true,
     cwd: 'app/assets/css/',
     src: ['**/*.css', '!**/_*.css'],
-    dest: dest + '/assets/css',
+    dest: `${dest}/assets/css`,
     ext: '.css'
   }];
 };
@@ -27,12 +29,12 @@ module.exports = {
     options: {
       map: false
     },
-    files: getPostcssFiles('public')
+    files: getFiles('public')
   },
   dist: {
     options: {
       map: false
     },
-    files: getPostcssFiles('dist')
+    files: getFiles('dist')
   }
 };

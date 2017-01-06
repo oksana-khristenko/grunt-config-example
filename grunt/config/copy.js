@@ -1,8 +1,10 @@
+'use strict';
+
 var getImageFiles = dest => {
   return {
     cwd: 'app/assets/img',
     src: ['**/*'],
-    dest: dest + '/assets/img',
+    dest: `${dest}/assets/img`,
     expand: true
   };
 };
@@ -20,7 +22,7 @@ var getSvgFiles = dest => {
   return {
     cwd: 'app/assets/svg',
     src: ['**/*.svg', '!sprites/**/*.svg'],
-    dest: dest + '/assets/svg',
+    dest: `${dest}/assets/svg`,
     expand: true
   };
 };
